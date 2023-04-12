@@ -18,11 +18,13 @@ function Page() {
   }
 
   return (
-    <ul>
-      {!product
-        ? "Loading..."
-        : product.map((i) => <li key={i.id}>{i.name}</li>)}
-    </ul>
+    <div>
+      <ul>
+        {!product
+          ? "Loading..."
+          : product.map((i) => <li key={i.id}>{i.name}</li>)}
+      </ul>
+    </div>
   );
 }
 
