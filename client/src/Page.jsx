@@ -24,6 +24,10 @@ function Page() {
           ? "Loading..."
           : product.map((i) => <li key={i.id}>{i.name}</li>)}
       </ul>
+
+      <p>
+        Este projeto têm o objetivo de dar um norte sobre como usar react+node
+      </p>
     </div>
   );
 }
